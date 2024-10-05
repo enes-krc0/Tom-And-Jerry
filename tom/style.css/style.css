@@ -1,0 +1,129 @@
+#page{
+    width: 800px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: ghostwhite;
+}
+body{
+    margin: 0px;
+}
+header{
+    height: 250px;
+    background-image: url(../images/banner.jpg);
+    background-repeat:no-repeat ;
+    background-size:cover ;
+}
+nav{
+    height: 50px;
+    background-color: red;
+}
+nav ul{
+    list-style-type: none ;
+    margin: 0px;
+    padding: 0px;
+}
+nav li {
+    float: left;
+    text-align: center;
+    width: 130px;
+    height: 50px;
+    padding-top: 15px;
+
+    box-sizing: border-box;
+    /* genişlik ve yükseklik varken padding kullanılmışsa boxsizinig kullanılmalı  */
+
+}
+nav li:hover {
+    background-color: gray;
+    
+}
+nav li:hover a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+    
+} */
+main {
+    padding: 50px;
+}
+a:hover{
+    font-size: 25px;
+    color: black;
+}
+.img_b1 {
+    height: 220px;
+    width:220px ;
+    border:5px solid yellow;
+    float: left;
+    box-sizing: border-box;
+}
+/* owerflow ozellıgı tasan kısım ıle ılgılı ozellıklerdır
+eger hidden olursa taşan kısım gizlensin demek  */
+article{
+    height: 220px;
+    width: 470px;
+    float: right;
+    box-sizing: border-box;
+   overflow: auto;
+   background-color: white;
+   
+}
+article h1{
+    font-size: 30px!important;
+}
+article h1, article p{
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 10px;
+}
+.kutular{
+    width: 230px;
+    height: 240px;
+    background-color: red;
+    float: left;
+    padding: 4px;
+    box-sizing: border-box;
+    margin-right:5px;
+    margin-bottom: 10px;
+
+}
+.kutular img{
+height: 202px;
+width: 222px;
+display: block;
+
+}
+
+/* !important komutu gittigi yerde kesin olarak öncelik kazandırır */
+.margin{
+    margin: 0px!important;
+}
+.kutulardakispn{
+    display: block;
+    text-align: center;
+    line-height: 32px;
+    width: 222px;
+    color: white;
+    font-size: 25   """"px;
+}
+.clear{
+    clear: both;
+    /* margin etkilerilerini bitirmek için kullanılan komut cleardır  */
+
+}
+
+#slide{
+    height: 40px;
+    margin-top: 10px;
+    background-color:gray;
+    font-size: 20px;
+    
+}
